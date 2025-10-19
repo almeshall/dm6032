@@ -5,3 +5,4 @@ return false;
 
 document.getElementByTagName("tr")[1].onclick = function(){
   alert("Sold out");};
+  
