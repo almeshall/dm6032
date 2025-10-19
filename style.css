@@ -1,0 +1,54 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-famliy: Segoe UI,Arial;
+}
+body{
+  background:lavender;
+  color:black;
+  padding-top:60px;
+  text-align:center;
+}
+nav{
+  position:fixed;
+  background:white;
+ top:0;
+  width:100%;
+}
+nav ul{
+  justify-content:center;
+  list-style:none;
+  gap:20px;
+  display:flex;
+}
+table{
+  margin:18px auto;
+  border:4px gray;
+  border collapse:collapse;
+  width:50%;
+}
+table th{
+  background-color:blue;
+  color:white;
+  
+}
+table th,
+table td{border:1px solid black}
+
+nav a {
+  color:blue;
+  font-weight:bold;
+  text-decoration:none;
+}
+#products {
+  margin:60px
+}
+#contactus {
+  margin:60px
+}
+table img{
+  height:100px;
+  weight:100px;
+  object-fit:cover;
+}
